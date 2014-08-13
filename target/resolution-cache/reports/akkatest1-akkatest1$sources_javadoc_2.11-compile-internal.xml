@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140812162637"/>
+		date="20140813161806"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
 			<revision name="2.3.4" status="release" pubdate="20140630160136" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
@@ -15,13 +15,13 @@
 				<metadata-artifact status="no" details="" size="2687" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4.pom"/>
 				<caller organisation="akkatest1" name="akkatest1$sources_javadoc_2.11" conf="optional, compile, provided, compile-internal" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="327598" time="1211" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.4-sources.jar">
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="327598" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.3.4-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4-sources.jar"/>
 					</artifact>
 					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2516692" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.4.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2356009" time="2883" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\docs\akka-actor_2.11-2.3.4-javadoc.jar">
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2356009" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\docs\akka-actor_2.11-2.3.4-javadoc.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.4/akka-actor_2.11-2.3.4-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -33,13 +33,13 @@
 				<metadata-artifact status="no" details="" size="2768" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
 				<caller organisation="akkatest1" name="akkatest1$sources_javadoc_2.11" conf="optional, compile, provided, compile-internal" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="config" type="jar" ext="jar" status="successful" details="" size="219554" time="863" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\jars\config-1.2.1.jar">
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="219554" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\jars\config-1.2.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
 					</artifact>
-					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="147508" time="1167" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar">
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="147508" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-javadoc.jar"/>
 					</artifact>
-					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="132611" time="1031" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="132611" time="0" location="C:\Users\kirichenko.KL\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1-sources.jar"/>
 					</artifact>
 				</artifacts>

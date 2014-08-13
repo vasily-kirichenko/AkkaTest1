@@ -4,7 +4,7 @@
 		module="akkatest1$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20140812162637"
+		publication="20140813161806"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
